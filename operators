@@ -42,6 +42,69 @@ b=int(input())
 c=a//b
 d=a%b
 print(f'the number of students in each team is {c} and left out is {d} ')
+
+#product and division
+
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+
+#swapping without third variable
+
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print(a,b)
+
+#average calculation
+
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+avg=(a+b+c+d+e)/5
+print("%.2f"%avg)
+
+#alice in wonderland
+
+a=int(input())
+b=a//10
+c=a%10
+print(b+c)
+
+#area calculation
+
+s=int(input())
+l=int(input())
+b=int(input())
+r=float(input())
+print(s*s)
+print(l*b)
+u=3.14*r*r
+print("%.2f"%u)
+
+#power of a number
+
+a=int(input())
+b=int(input())
+print(a**b)
+
+#simple intrest
+
+p=int(input())
+t=int(input())
+r=float(input())
+s=p*t*r/100
+print(s)
+
+
+
+
   
   
   
