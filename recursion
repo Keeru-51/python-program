@@ -1,0 +1,73 @@
+#Binary Equilent of a number using recursion
+
+def convert(n):
+    if n>1:
+        convert(n//2)
+    print(n%2,end="")
+dec=int(input())
+convert(dec)
+
+#Fibonacci Series
+def fib(x):
+    n1,n2=0,1
+    count=0
+    while count<x:
+        print(n1)
+        n3=n1+n2
+        n1=n2
+        n2=n3
+        count+=1
+n=int(input())
+fib(n)
+
+#Odd or Even
+def eo(x):
+    if x%2==0:
+        print("even!")
+    else:
+        print("odd!")
+            
+a=int(input())
+eo(a)
+
+#Factorial
+def fact(x):
+    i=1
+    b=1
+    while i<=x:
+        b*=i
+        i=i+1
+    print(b)
+a=int(input())
+fact(a)
+
+
+#LCM of two numbers
+def lcm(x,y):
+    if x>=y:
+        n=x
+    else:
+        n=y
+    while(1):
+        if(n%x==0 and n%y==0):
+            print(n)
+            break
+        n+=1
+        
+a=int(input())
+b=int(input())
+lcm(a,b)
+
+#Decimal to Binary
+
+def convert(n):
+    if n>1:
+        convert(n//2)
+    print(n%2,end="")
+dec=int(input())
+convert(dec)
+
+
+
+
+            
