@@ -1,0 +1,16 @@
+#check key exist
+def checkkey(dic,key):
+    if key in dic.keys():
+        print("key is present",end=" ")
+        print("and value of the key is",dic[key])
+    else:
+        print("key isn't present")
+dic={'A':1,'B':2,'C':3}
+key=input("Enter key to check:")
+checkkey(dic,key)
+
+#concatenate
+d1={'A':'1','B':'2'}
+d2={'c':3}
+x=d1.update(d2)
+print("concatenated dictionary is",d1)
