@@ -8,3 +8,61 @@ for i in s:
     elif (i.islower()):
         count2=count2+1
 print(count1,count2)
+
+#count the word and character
+a=str(input())
+count1=0
+for i in a:
+    if(i.isalpha()):
+        count1+=1
+b=a.split()
+n=len(b)
+print(n)
+print(len(a))
+
+
+#number of digits and letters in a string
+a=str(input())
+count1=0
+count2=0
+for i in a:
+    if (i.isalpha()):
+        count1+=1
+    else:
+        count2+=1
+print(f'Characters={count1}')
+print(f'Digits={count2}')
+
+
+#characters in ascending order
+a=str(input())
+t=sorted(a)
+for i in t:
+    print(i,end="")
+    
+    
+ #form a new string made
+    
+a=str(input())
+count=0
+for i in a:
+    count+=1
+print(a[:2]+a[-2:])
+
+#remove the nth index
+a=str(input())
+n=int(input())
+print(a[0:n]+a[n+1:])
+
+#replace all occurrence
+a=str(input())
+b=input()
+c=input()
+d=a.replace(b,c)
+print(f'Modified string:{d}')
+
+#remove the nth index character
+a=str(input())
+n=int(input())
+print(a[0:n]+a[n+1:])
+    
